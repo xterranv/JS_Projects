@@ -11,3 +11,8 @@ function myFunction() {
     sentence += " a lot from this book.";
     document.getElementById("concatenate").innerHTML = sentence;
 }
+
+//function to convert fahrenheit to celcius
+function toCelsius(f) {
+    return (5 / 9) * (f - 32);
+}
