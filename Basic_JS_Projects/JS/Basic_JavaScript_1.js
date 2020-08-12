@@ -1,6 +1,8 @@
+//defining a variable and using the window.alert method to display a popup window msg
 var d = "Stay calm and play with your Dog";
 window.alert(d)
 
+//Examples using the document.write method
 document.write("Lisa told Bart, \"Knock it off, Bart! Or I'll tell dad!\"<br>\"Eat my shorts!\" Bart responded.");
 document.write("<br><br>");
 
@@ -35,6 +37,7 @@ Grandparent = Grandparent.fontcolor("orange");
 document.write(Grandparent);
 document.write("<br><br>"); //adding space
 
+//defining an expression, displaying the result
 var x = 44 + 55
 document.write(x);
 document.write("<br><br>"); //adding space
