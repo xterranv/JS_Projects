@@ -54,3 +54,8 @@ function My_First_Function() {
     document.getElementById("Green_Text").innerHTML = result;
     //putting the value of the Result string into an HTML Element with the green_text id
 }
+
+//displays datetime when the html button element is clicked
+function displayDate() {
+    document.getElementById("showdate").innerHTML = Date();
+}
